@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Home",
+    "to": "/",
+    "subMenu":[]
+  },
+
+  {
+    "title": "Contact Us",
+    "to": "/pages/contact-us",
+    "subMenu": []
+  },
+  
+ 
+  {
+    "title": "Career",
+    "to": "#!",
+    "subMenu": []
+  }
+]
