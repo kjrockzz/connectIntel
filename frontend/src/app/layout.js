@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
           {children}
           <div id="nav-full" />
           <div id="nav-sidebar" />
-          <div id="cart-sidebar" />
           <div id="overlay" />
           <div id="modal" />
         </GlobalProvider>

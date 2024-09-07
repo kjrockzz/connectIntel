@@ -7,7 +7,6 @@ import serviceData from "@/data/service/data.json"
 import BrandOne from "@/components/Sections/Brand/BrandOne";
 import TestimonialTwo from "@/components/Sections/Testimonial/TestimonialTwo";
 import testimonialData from "@/data/testimonial/data.json"
-import ContactOne from "@/components/Sections/Contact/ContactOne";
 import LayoutTwo from "@/components/Layout/LayoutTwo";
 import CtaTwo from "@/components/Sections/Cta/CtaTwo";
 import CounterTwo from "@/components/Sections/Counter/CounterTwo";
