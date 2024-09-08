@@ -5,8 +5,8 @@ const CtaTwo = () => {
         <section className="cta-block">
             <div className="container">
                 <div className="flex gap-y-4 gap-6 items-center justify-between flex-wrap max-lg:flex-col max-lg:justify-center bg-linear-blue py-7 px-10 rounded-2xl overflow-hidden">
-                    <h4 className="text-white heading4 max-lg:text-center">In Search of a Premium Business Consultant?</h4>
-                    <Link className="button-main" href="/pages/contact-us">Get a free Quote</Link>
+                    <h3 className="text-white heading4 max-lg:text-center">Ready to take the next step? Lets make things happen!</h3>
+                    <Link className="button-main" href="/pages/contact-us">Contact Us</Link>
                 </div>
             </div>
         </section>

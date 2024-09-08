@@ -24,7 +24,7 @@ export default function MenuFunctionIcons(props) {
               <span className="icon bg-white text-blue w-8 h-8 flex items-center justify-center rounded-full">
                 <Icon.PhoneCall className="text-2xl flex-shrink-0" />
               </span>
-              <span className="text-button text-blue whitespace-nowrap flex-shrink-0">1-333-345-6868</span>
+              <span className="text-button text-blue whitespace-nowrap flex-shrink-0">+91 88856 00476</span>
             </div>
           )}
           {/* <Link href={'/pages/contact-us'} className="button-main text-button-sm max-sm:hidden">Contact</Link> */}

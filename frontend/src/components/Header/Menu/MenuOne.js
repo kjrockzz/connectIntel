@@ -12,7 +12,7 @@ export default function MenuOne({ container }) {
         <div className="menu__wrapper">
           <h1>
             <Link href="/" className="menu__wrapper__logo block">
-              <img src="/images/logo.svg" alt="Logo" />
+              <img src="/images/cli/ci-black.png" alt="Logo" style={{ height: '40px' }}/>
             </Link>
           </h1>
           <Navigator />

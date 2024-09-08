@@ -6,13 +6,14 @@ const CounterAbout = () => {
           <div className="flex max-md:flex-col gap-y-6">
             <div className="md:w-1/2 pr-[45px]">
               <h4 className="heading4">Our mission</h4>
-              <div className="body2 mt-3">We go deep to unlock insight and have the courage to act. We bring the right people together to challenge established thinking and drive transformation. We work with our clients to build the capabilities that enable organizations to achieve sustainable advantage.</div>
-              <div className="body2 mt-3">We go deep to unlock insight and have the courage to act. We bring the right people together to challenge established thinking and drive transformation. We work with our clients to build the capabilities that enable organizations to achieve sustainable advantage.</div>
+              <div className="body2 mt-3">Our mission at CollectIntel is to empower businesses by providing innovative, data-driven customer acquisition solutions that seamlessly integrate both offline and online channels. We aim to help our clients connect with the right audience, build lasting relationships, and achieve sustainable growth. By delivering personalized strategies and measurable results, we are committed to driving success and unlocking new opportunities for our clients in today’s dynamic market.
+              </div>
+              <div className="body2 mt-3"></div>
             </div>
             <div className="md:w-1/2 md:pl-[45px]">
-              <h4 className="heading4">Our Vision</h4>
-              <div className="body2 mt-3">In our vision, innovation is not just a buzzword; it's a way of life. We aim to continuously push the boundaries of what's possible in the digital world. Through cutting-edge technologies, creative strategies, and forward-thinking solutions, we'll redefine industry standards and help our clients stay ahead of the curve.</div>
-              <div className="body2 mt-3">In the digital age, talent and creativity are invaluable assets. We envision ByteWare as a hub for nurturing and attracting the brightest minds in the industry.</div>
+              <h4 className="heading4">Our Story</h4>
+              <div className="body2 mt-3">In 2018, CollectIntel was founded to transform how businesses connect with customers. Our mission is to bridge offline and online acquisition channels through innovative, data-driven solutions that deliver real results. With years of experience, our team has helped numerous clients attract and retain loyal customers through strategic, personalized approaches that engage the right audience.</div>
+              <div className="body2 mt-3">We prioritize building strong customer relationships and are dedicated to helping your business grow in today’s competitive market. Trust CollectIntel to bring in new customers and drive positive results for your business.</div>
             </div>
           </div>
          

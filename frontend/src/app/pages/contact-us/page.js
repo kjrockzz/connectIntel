@@ -85,44 +85,7 @@ export default function ContactUs() {
                 </div>
             </section>
             <section className="our-location lg:py-20 sm:py-14 py-10 border-b border-outline">
-                <div className="container">
-                    <h3 className="heading3 text-center">Our Locations</h3>
-                    <p className="body2 text-surface1 text-center mt-4">Tracing the Path of Our Legacy and Growth</p>
-                    <div className="grid xl:grid-cols-4 sm:grid-cols-2 gap-8 lg:mt-10 mt-7">
-                        <div className="content-infor flex flex-col bg-linear p-8 rounded-3xl h-full">
-                            <h5 className="heading5">Wasington DC</h5>
-                            <span className="body2 text-surface1 mt-5">Address:</span>
-                            <strong className="text-title mt-1">2972 Westheimer Rd. Santa Ana, Illinois 85486</strong>
-                            <span className="body2 text-surface1 mt-5">Phone Number:</span>
-                            <strong className="text-title mt-1">(252) 555-0126</strong>
-                            <Link className="caption1 font-bold mt-5" href="https://www.google.com/maps" target="_blank">View On Map</Link>
-                        </div>
-                        <div className="content-infor flex flex-col bg-linear p-8 rounded-3xl h-full">
-                            <h5 className="heading5">NewYork</h5>
-                            <span className="body2 text-surface1 mt-5">Address:</span>
-                            <strong className="text-title mt-1">2118 Cir. Syracuse, Connecticut 35624</strong>
-                            <span className="body2 text-surface1 mt-5">Phone Number:</span>
-                            <strong className="text-title mt-1">(684) 555-0102</strong>
-                            <Link className="caption1 font-bold mt-5" href="https://www.google.com/maps" target="_blank">View On Map</Link>
-                        </div>
-                        <div className="content-infor flex flex-col bg-linear p-8 rounded-3xl h-full">
-                            <h5 className="heading5">London</h5>
-                            <span className="body2 text-surface1 mt-5">Address:</span>
-                            <strong className="text-title mt-1">4517 Washington Ave, Kentucky 39495</strong>
-                            <span className="body2 text-surface1 mt-5">Phone Number:</span>
-                            <strong className="text-title mt-1">(629) 555-0129</strong>
-                            <Link className="caption1 font-bold mt-5" href="https://www.google.com/maps" target="_blank">View On Map</Link>
-                        </div>
-                        <div className="content-infor flex flex-col bg-linear p-8 rounded-3xl h-full">
-                            <h5 className="heading5">Morocco</h5>
-                            <span className="body2 text-surface1 mt-5">Address:</span>
-                            <strong className="text-title mt-1">1901 Thornridge Cir. Shiloh, Hawaii 81063</strong>
-                            <span className="body2 text-surface1 mt-5">Phone Number:</span>
-                            <strong className="text-title mt-1">(480) 555-0103</strong>
-                            <Link className="caption1 font-bold mt-5" href="https://www.google.com/maps" target="_blank">View On Map</Link>
-                        </div>
-                    </div>
-                </div>
+                
             </section>
         </LayoutOne>
     );
