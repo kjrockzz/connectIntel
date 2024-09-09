@@ -1,9 +1,52 @@
+'use client'
 import LayoutOne from "@/components/Layout/LayoutOne";
 import Link from "next/link";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
-import LayoutTwo from "@/components/Layout/LayoutTwo";
+import React, { useState } from "react";
+
+
+
+
+
 
 export default function ContactUs() {
+
+    const [isSubmitting, setIsSubmitting] = useState(false);
+
+    async function handleSubmit(e) {
+        e.preventDefault();
+        setIsSubmitting(true);
+        const formElement = e.target;
+        const formData = new FormData(formElement);
+        for (let [key, value] of formData.entries()) {
+            console.log(`${key}: ${value}`);
+        }
+    
+        try {
+            const response = await fetch("https://script.google.com/macros/s/AKfycbxBauvSx301r4ZqzcHAsT5397MlkLXrzV93iHYsqynasqf9nt46ehMBl5qd5YucQ1u9HQ/exec", {
+                method: "POST",
+                body: formData,
+            });
+    
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
+    
+            const data = await response.json();
+            setIsSubmitting(false);
+            console.log(data);
+            alert("Form submitted successfully!");
+            // Reset the form fields
+            formElement.reset();
+        } catch (error) {
+            setIsSubmitting(false);
+            console.error("There was an error submitting the form:", error);
+            alert("An error occurred while submitting the form.");
+        }
+    }
+    
+    
+
     return (
         <LayoutOne>
             <div className="bg-subpage absolute top-0 w-full h-[740px] bg-linear-gradient z-[-1]"></div>
@@ -63,22 +106,23 @@ export default function ContactUs() {
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 lg:pl-12">
-                            <form className="form-block bg-white rounded-2xl p-10 shadow-xl">
+                            <form className="form-block bg-white rounded-2xl p-10 shadow-xl" onSubmit={handleSubmit}>
                                 <div className="grid grid-cols-2 gap-6">
                                     <div className="max-xl:col-span-2 max-lg:col-span-1 max-sm:col-span-2">
-                                        <input className="w-full bg-surface caption1 px-4 py-3 rounded-lg" type="text" placeholder="Name" required />
+                                        <input className="w-full bg-surface caption1 px-4 py-3 rounded-lg" id="Name" type="text" name="Name" placeholder="Name" required />
                                     </div>
                                     <div className="max-xl:col-span-2 max-lg:col-span-1 max-sm:col-span-2">
-                                        <input className="w-full bg-surface caption1 px-4 py-3 rounded-lg" type="text" placeholder="Subject" required />
+                                        <input className="w-full bg-surface caption1 px-4 py-3 rounded-lg" id="Subject" type="text" name="Subject" placeholder="Subject" required />
                                     </div>
                                     <div className="col-span-2">
-                                        <input className="w-full bg-surface caption1 px-4 py-3 rounded-lg" type="text" placeholder="Email" required />
+                                        <input className="w-full bg-surface caption1 px-4 py-3 rounded-lg" id="Email" type="email" name="Email" placeholder="Email" required />
                                     </div>
                                     <div className="col-span-2">
-                                        <textarea className="w-full bg-surface caption1 px-4 py-3 rounded-lg" name="messsage" rows="4" placeholder="Your Questions..." required></textarea>
+                                        <textarea className="w-full bg-surface caption1 px-4 py-3 rounded-lg" name="Messsage" rows="4" placeholder="Your Questions..." required></textarea>
                                     </div>
                                 </div>
-                                <button className="button-main lg:mt-10 mt-7">Send Message</button>
+                                <button className="button-main lg:mt-10 mt-7"disabled={isSubmitting}>
+                                {isSubmitting ? "Submitting..." : "Send Message"}</button>
                             </form>
                         </div>
                     </div>
