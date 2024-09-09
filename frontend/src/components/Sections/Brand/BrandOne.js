@@ -8,19 +8,23 @@ import Image from "next/image";
 import Link from "next/link";
 
 const logos = [
-  "/images/brand/brand.png",
-  "/images/brand/brand.png",
-  "/images/brand/brand.png",
-  "/images/brand/brand.png",
-  "/images/brand/brand.png",
-  "/images/brand/brand.png"
+  "/images/clients/icici.png",
+  "/images/clients/axis.png",
+  "/images/clients/unity.png",
+  "/images/clients/pnb.png",
+  "/images/clients/bajaj.png",
+  "/images/clients/birla.png",
+  "/images/clients/hdfc.png",
+  "/images/clients/kb.png",
+  "/images/clients/recarpet.png",
+  
 ]
 
 export default function BrandOne({ classname }) {
   return (
     <section className={`section-brand ${classname}`}>
       <div className="container">
-        <h5 className="heading5 text-center">Trusted by specialists all around the world</h5>
+        <h5 className="heading5 text-center">Our Prominent Clients</h5>
         <div className="flex items-center justify-center mt-7">
           <div className="list lg:w-11/12 w-full">
             <Swiper

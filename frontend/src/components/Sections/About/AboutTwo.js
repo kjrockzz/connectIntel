@@ -9,8 +9,8 @@ const AboutTwo = () => {
                         <h3 className="heading3">We are your strategic partner for business development</h3>
                     </div>
                     <div className="w-full lg:w-6/12">
-                        <div className="desc">At Bytewave, we're more than just business consultants; we're passionate allies on your journey. With a mission to respect and define the unique values of each enterprise, we're committed to crafting innovative solutions and tailored strategies that propel you towards new heights.</div>
-                        <Link className="text-button-sm inline-block mt-4 border-b-2 border-black" href="/company/about-us">Our Company</Link>
+                        <div className="desc">At CollectIntel, we’re more than just business consultants; we’re your strategic partner in business development, passionately committed to your success. Our mission is to respect and amplify the unique values of each enterprise we work with. Through innovative, data-driven solutions and tailored strategies, we help bridge the gap between offline and online customer acquisition channels, empowering your business to achieve new heights of growth and engagement.</div>
+                        <Link className="text-button-sm inline-block mt-4 border-b-2 border-black" href="#about-us-section">About Us</Link>
                     </div>
                 </div>
             </div>

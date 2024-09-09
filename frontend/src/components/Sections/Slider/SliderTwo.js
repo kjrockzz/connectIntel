@@ -32,7 +32,7 @@ const SliderTwo = () => {
                 <div className="container w-full h-full flex items-center">
                   <div className="text-content">
                     <h2 className="heading1 text-white">SOLUTIONS <br />THAT DRIVE SUCCESS</h2>
-                    <div className="body2 text-white md:mt-4 mt-2">Collaborating to create a roadmap for your triumph</div>
+                    <div className="body3 text-white md:mt-4 mt-2">Collaborating to create a roadmap for your triumph</div>
                     {/* <div className="group-btn flex items-center flex-wrap gap-3 md:mt-8 mt-5">
                       <Link href={process.env.PUBLIC_URL + "/services/[slug]"}
                         as={

@@ -1,8 +1,13 @@
+import HeadingSubpage from "@/components/HeadingSubpage/HeadingSubpage";
+
 const CounterAbout = () => {
   return (
     <section className="section-couter">
       <div className="container">
-        <div className="main lg:py-20 sm:py-14 py-10 border-t border-outline">
+        
+        <div className="main lg:py-0 sm:py-14 py-10 border-t border-outline">
+
+          <HeadingSubpage classname={'lg:pt-1 0 sm:pt-14 pt-10 lg:pb-[60px] sm:pb-12 pb-8'} title={'about us'} desc={'Discover our story, our mission, and our passion for creativity and innovation.'} />
           <div className="flex max-md:flex-col gap-y-6">
             <div className="md:w-1/2 pr-[45px]">
               <h4 className="heading4">Our mission</h4>
