@@ -9,12 +9,8 @@
     "title": "Contact Us",
     "to": "/pages/contact-us",
     "subMenu": []
-  },
+  }
   
  
-  {
-    "title": "Career",
-    "to": "/company/career",
-    "subMenu": []
-  }
+  
 ]

@@ -28,7 +28,8 @@ export default function homepage() {
            
             <div id = "about-us-section" className="bg-subpage absolute  w-full h-[740px] bg-linear-gradient z-[-1]"></div>
                
-                <BrandOne classname={'lg:pt-20 md:pt-14 pt-10 lg:pb-[60px] md:pb-12 py-8 style-subpage'} />
+               <div className="md:pt-14 "></div>
+                {/* <BrandOne classname={'lg:pt-20 md:pt-14 pt-10 lg:pb-[60px] md:pb-12 py-8 style-subpage'} /> */}
                 <CounterAbout />                
                 <BenefitAbout />
                 <TestimonialTwo data={testimonialData} classname={'bg-linear-blue'} />
