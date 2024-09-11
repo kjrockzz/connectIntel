@@ -39,28 +39,7 @@ const BenefitAbout = () => {
                 </div>
             </div>
             <div className="award-block lg:mt-20 sm:mt-14 mt-10">
-                <div className="container xl:flex gap-8">
-                    <div className="heading4 flex-shrink-0">Outstanding Customer<br className='max-sm:hidden' />Service Recognition</div>
-                    <div className="w-full max-xl:mt-7">
-                        <div className="list-award flex items-center xl:justify-end max-sm:flex-wrap sm:gap-14 gap-8">
-                            <div className="bg-img">
-                                <Image width={4000} height={4000} className="lg:w-[120px] w-24 lg:h-[120px] h-24" src="/images/award/120x120.png" alt="award/120x120.png" />
-                            </div>
-                            <div className="bg-img">
-                                <Image width={4000} height={4000} className="lg:w-[120px] w-24 lg:h-[120px] h-24" src="/images/award/120x120.png" alt="award/120x120.png" />
-                            </div>
-                            <div className="bg-img">
-                                <Image width={4000} height={4000} className="lg:w-[120px] w-24 lg:h-[120px] h-24" src="/images/award/120x120.png" alt="award/120x120.png" />
-                            </div>
-                            <div className="bg-img">
-                                <Image width={4000} height={4000} className="lg:w-[120px] w-24 lg:h-[120px] h-24" src="/images/award/120x120.png" alt="award/120x120.png" />
-                            </div>
-                            <div className="bg-img">
-                                <Image width={4000} height={4000} className="lg:w-[120px] w-24 lg:h-[120px] h-24" src="/images/award/120x120.png" alt="award/120x120.png" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </section>
     )

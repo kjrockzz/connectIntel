@@ -24,24 +24,24 @@ export default function FooterOne({ classname }) {
               </div>
             </div>
             <div className="w-full md:w-1/2">
-              <div className="footer-navigate flex md:justify-evenly max-md:gap-20 max-sm:gap-y-6 max-sm:flex-wrap">
-                <div className="footer-nav-item">
+              
+                <div className="footer-nav-item flex flex-col md:flex-row md:justify-evenly  ">
+                  <div>
                   <div className="item-heading text-button">Company</div>
-                  <ul className="list-nav mt-3">
-                    <li className="mt-2">
-                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/company/about-us">About us</Link>
-                    </li>
-                    <li className="mt-2">
-                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/company/our-teams">Our Team</Link>
-                    </li>
-                    
+                  <ul className="list-nav mt-3 flex flex-row gap-10" >
                     <li className="mt-2">
                       <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/pages/contact-us">Contact</Link>
                     </li>
+                    <li className="mt-2">
+                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/company/career">Carrer</Link>
+                    </li>
+                    
+                    
                   </ul>
                 </div>
+                </div>
 
-                <div className="footer-nav-item">
+                {/* <div className="footer-nav-item">
                   <div className="item-heading text-button">Solutions</div>
                   <ul className="list-nav mt-3">
                     <li className="mt-2">
@@ -55,7 +55,7 @@ export default function FooterOne({ classname }) {
                       <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/pages/contact-us">Contact</Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 {/* <div className="footer-nav-item">
                   <div className="item-heading text-button">Solutions</div>
                   <ul className="list-nav mt-3">
@@ -72,7 +72,7 @@ export default function FooterOne({ classname }) {
                     ))}
                   </ul>
                 </div> */}
-              </div>
+              
             </div>
             <div className="xl:w-1/4 w-full">
               <div className="company-contact max-xl:w-1/2 max-sm:w-full">

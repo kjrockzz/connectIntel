@@ -91,7 +91,7 @@ export default function ContactUs() {
                                             <Icon.EnvelopeSimple weight="bold" className="text-xl" />
                                         </div>
                                         <div className="text h-full flex-1 pl-6 border-l border-outline">
-                                            <span className="body2">hi.avitex@gmail.com</span>
+                                            <span className="body2">sales@collectintel.in</span>
                                         </div>
                                     </div>
                                     <div className="item flex items-center gap-6 mt-5">
@@ -99,7 +99,7 @@ export default function ContactUs() {
                                             <Icon.MapPin weight="bold" className="text-xl" />
                                         </div>
                                         <div className="text h-full flex-1 pl-6 border-l border-outline">
-                                            <span className="body2">4140 Rd. Allentown, New Mexico 31134</span>
+                                            <span className="body2">7-4-68, Behind SBI Bank, Ferozguda, Balanagar, Hyderabad, Telangana - 500011</span>
                                         </div>
                                     </div>
                                 </div>

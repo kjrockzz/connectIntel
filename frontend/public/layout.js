@@ -7,7 +7,7 @@ const plusJakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 export const metadata = {
   title: "ConnectIntel",
   description: "",
-  icons:[{url: '/favicon.png'}]
+  favicon:"/favicon.png"
 };
 
 export default function RootLayout({ children }) {
