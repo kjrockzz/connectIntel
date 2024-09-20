@@ -9,21 +9,19 @@ import React, { useState } from "react";
 
 
 
-export default function ContactUs() {
-
+export default function ContactUs() {    
     const [isSubmitting, setIsSubmitting] = useState(false);
-
     async function handleSubmit(e) {
         e.preventDefault();
-        setIsSubmitting(true);
+        setIsSubmitting(true);  
         const formElement = e.target;
         const formData = new FormData(formElement);
         for (let [key, value] of formData.entries()) {
             console.log(`${key}: ${value}`);
         }
-    
+                
         try {
-            const response = await fetch("https://script.google.com/macros/s/AKfycbxBauvSx301r4ZqzcHAsT5397MlkLXrzV93iHYsqynasqf9nt46ehMBl5qd5YucQ1u9HQ/exec", {
+            const response = await fetch(process.env.NEXT_PUBLIC_SCRIPT_CONTACT, {
                 method: "POST",
                 body: formData,
             });
@@ -99,7 +97,7 @@ export default function ContactUs() {
                                             <Icon.MapPin weight="bold" className="text-xl" />
                                         </div>
                                         <div className="text h-full flex-1 pl-6 border-l border-outline">
-                                            <span className="body2">7-4-68, Behind SBI Bank, Ferozguda, Balanagar, Hyderabad, Telangana - 500011</span>
+                                            <span className="body2">Plot no. 40, Green Hills, Kaithalapur Flyover Rd, Bhagyanagar Colony, Madhapur, Hyderabad, Telangana 500072</span>
                                         </div>
                                     </div>
                                 </div>

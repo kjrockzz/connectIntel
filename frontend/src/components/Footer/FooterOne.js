@@ -30,10 +30,10 @@ export default function FooterOne({ classname }) {
                   <div className="item-heading text-button">Company</div>
                   <ul className="list-nav mt-3 flex flex-row gap-10" >
                     <li className="mt-2">
-                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/pages/contact-us">Contact</Link>
+                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/contact-us">Contact</Link>
                     </li>
                     <li className="mt-2">
-                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/company/career">Carrer</Link>
+                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/company/career">Career</Link>
                     </li>
                     
                     
@@ -94,10 +94,8 @@ export default function FooterOne({ classname }) {
                   <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.twitter.com/" target="_blank">
                     <i className="icon-twitter text-base"></i>
                   </Link>
-                  <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.youtube.com/" target="_blank">
-                    <i className="icon-youtube text-base"></i>
-                  </Link>
-                  <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.instagram.com/" target="_blank">
+   
+                  <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.instagram.com/collectintel.in?igsh=OWFjZmZoazBuM25i" target="_blank">
                     <i className="icon-instagram text-sm"></i>
                   </Link>
                 </div>

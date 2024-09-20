@@ -32,10 +32,13 @@ export default function homepage() {
                 {/* <BrandOne classname={'lg:pt-20 md:pt-14 pt-10 lg:pb-[60px] md:pb-12 py-8 style-subpage'} /> */}
                 <CounterAbout />                
                 <BenefitAbout />
-                <TestimonialTwo data={testimonialData} classname={'bg-linear-blue'} />
+                {/* <TestimonialTwo data={testimonialData} classname={'bg-linear-blue'} /> */}
 
             
             {/* <ContactOne classname={'bg-linear-blue'} /> */}
+            <section className=" border-b border-outline">
+                
+                </section>
         </LayoutTwo>
     );
 }

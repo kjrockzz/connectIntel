@@ -12,28 +12,29 @@ const CounterTwo = () => {
               <div className="flex flex-wrap gap-y-6">
                 <div className="w-6/12">
                   <div className="counter-item border-l-2 border-blue sm:pl-5 pl-3">
-                    <div className="heading3 text-white count-number">20</div>
+                    <div className="heading3 text-white count-number">5</div>
                     <div className="body1 mt-1 text-white">Years experiences</div>
                   </div>
                 </div>
                 <div className="w-6/12">
                   <div className="counter-item border-l-2 border-blue sm:pl-5 pl-3">
                     <div className="flex items-center">
-                      <div className="heading3 text-white count-number">1.8</div>
-                      <span className="heading3 text-white">k</span>
+                      <div className="heading3 text-white count-number">20</div>
+                      <span className="heading3 text-white">+</span>
                     </div>
-                    <div className="body1 mt-1 text-white">Happy customers</div>
+                    <div className="body1 mt-1 text-white">Clients</div>
                   </div>
                 </div>
                 <div className="w-6/12">
                   <div className="counter-item border-l-2 border-blue sm:pl-5 pl-3">
-                    <div className="heading3 text-white count-number">460</div>
-                    <div className="body1 mt-1 text-white">Project completed</div>
+                    <div className="heading3 text-white count-number">50k+</div>
+                    
+                    <div className="body1 mt-1 text-white"> Customers acquired</div>
                   </div>
                 </div>
                 <div className="w-6/12">
                   <div className="counter-item border-l-2 border-blue sm:pl-5 pl-3">
-                    <div className="heading3 text-white count-number">15</div>
+                    <div className="heading3 text-white count-number">2</div>
                     <div className="body1 mt-1 text-white">Awards achievement</div>
                   </div>
                 </div>

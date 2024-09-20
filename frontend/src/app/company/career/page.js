@@ -26,7 +26,7 @@ export default function Career() {
                     dataReq: { data: rawLog, name: file.name, type: file.type },
                     fname: "uploadFilesToGoogleDrive"
                 };
-                fetch('https://script.google.com/macros/s/AKfycbyCUi6-Rwg0XHREud_PlMKCD2rj3XHrnV8rRlYsCagUG1DtojHBdoCIHNAcdbD_Vj_n_g/exec', {
+                fetch(process.env.NEXT_PUBLIC_SCRIPT_CAREER, {
                     method: "POST",
                     body: JSON.stringify(dataSend)
                 })
@@ -67,7 +67,7 @@ export default function Career() {
             }
 
             // Submit the form data
-            const response = await fetch("https://script.google.com/macros/s/AKfycbyCUi6-Rwg0XHREud_PlMKCD2rj3XHrnV8rRlYsCagUG1DtojHBdoCIHNAcdbD_Vj_n_g/exec", {
+            const response = await fetch(process.env.NEXT_PUBLIC_SCRIPT_CAREER, {
                 method: "POST",
                 body: formData,
             });
