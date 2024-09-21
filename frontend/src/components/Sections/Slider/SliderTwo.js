@@ -57,7 +57,7 @@ const SliderTwo = () => {
                     playsInline
                     className="w-full h-full object-cover  brightness-75"
                   >
-                    <source src="/images/cli/vid1.mp4" type="video/mp4" />
+                    <source src="/images/cli/bgVid.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                   

@@ -69,6 +69,11 @@
 .icon-device-cloud:before {
   content: "\e905";
 }
+/* Icon for target audience */
+.icon-target-audience:before {
+  content: "\e917"
+}
+
 .icon-cloud-dots:before {
   content: "\e906";
 }
@@ -112,3 +117,5 @@
 .icon-youtube:before {
   content: "\e913";
 }
+
+

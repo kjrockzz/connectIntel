@@ -31,6 +31,13 @@
         "icon": "icon-user-chart",
         "title": "Scalable Solutions for Business",
         "desc": "Our strategies are adaptable, allowing your business to scale as needed while maintaining customer retention and acquisition efficiency."
+    },
+
+    {
+        "id": "23",
+        "icon": "icon-target-audience",
+        "title": "Targeted Audience Segmentation",
+        "desc": "We identify key customer groups and deliver tailored messages, ensuring higher conversions and more meaningful connections for your business."
     }
     
 ]

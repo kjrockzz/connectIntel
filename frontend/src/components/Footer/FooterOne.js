@@ -85,13 +85,13 @@ export default function FooterOne({ classname }) {
                   </button>
                 </div> */}
                 <div className="list-social flex items-center flex-wrap gap-2.5 mt-7">
-                  <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.facebook.com/" target="_blank">
+                  <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.facebook.com/profile.php?id=61563975370434&mibextid=ZbWKwL" target="_blank">
                     <i className="icon-facebook text-base"></i>
                   </Link>
                   <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.linkedin.com/" target="_blank">
                     <i className="icon-linkedin text-base"></i>
                   </Link>
-                  <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://www.twitter.com/" target="_blank">
+                  <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:text-white hover:bg-black'}`} href="https://x.com/collectintelin" target="_blank">
                     <i className="icon-twitter text-base"></i>
                   </Link>
    

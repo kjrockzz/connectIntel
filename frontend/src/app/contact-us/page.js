@@ -59,19 +59,17 @@ export default function ContactUs() {
                                     <p className="body2 mt-4">Enabled a startup to launch a successful mobile app by providing end-to-end development, leading to high downloads and recognition.</p>
                                 </div>
                                 <div className="list-social flex items-center gap-5 mt-7">
-                                    <Link className="item rounded-full w-12 h-12 flex items-center justify-center bg-white border-outline hover:bg-blue hover:text-white duration-300" href="https://www.facebook.com/" target="_blank">
+                                    <Link className="item rounded-full w-12 h-12 flex items-center justify-center bg-white border-outline hover:bg-blue hover:text-white duration-300" href="https://www.facebook.com/profile.php?id=61563975370434&mibextid=ZbWKwL" target="_blank">
                                         <i className="icon-facebook"></i>
                                     </Link>
                                     <Link className="item rounded-full w-12 h-12 flex items-center justify-center bg-white border-outline hover:bg-blue hover:text-white duration-300" href="https://www.linkedin.com/" target="_blank">
                                         <i className="icon-linkedin"></i>
                                     </Link>
-                                    <Link className="item rounded-full w-12 h-12 flex items-center justify-center bg-white border-outline hover:bg-blue hover:text-white duration-300" href="https://www.twitter.com/" target="_blank">
+                                    <Link className="item rounded-full w-12 h-12 flex items-center justify-center bg-white border-outline hover:bg-blue hover:text-white duration-300" href="https://x.com/collectintelin" target="_blank">
                                         <i className="icon-twitter"></i>
                                     </Link>
-                                    <Link className="item rounded-full w-12 h-12 flex items-center justify-center bg-white border-outline hover:bg-blue hover:text-white duration-300" href="https://www.youtube.com/" target="_blank">
-                                        <i className="icon-youtube"></i>
-                                    </Link>
-                                    <Link className="item rounded-full w-12 h-12 flex items-center justify-center bg-white border-outline hover:bg-blue hover:text-white duration-300" href="https://www.instagram.com/" target="_blank">
+                                    
+                                    <Link className="item rounded-full w-12 h-12 flex items-center justify-center bg-white border-outline hover:bg-blue hover:text-white duration-300" href="https://www.instagram.com/collectintel.in" target="_blank">
                                         <i className="icon-instagram text-sm"></i>
                                     </Link>
                                 </div>

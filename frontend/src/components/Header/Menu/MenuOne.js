@@ -8,11 +8,11 @@ import { renderContainer } from "../../../common/utils";
 export default function MenuOne({ container }) {
   return (
     <header className="menu -style-1 bg-white border-b border-outline">
-      <div className={renderContainer(container)}>
+      <div className="xl:px-20 px-4">
         <div className="menu__wrapper">
           <h1>
             <Link href="/" className="menu__wrapper__logo block">
-              <img src="/images/cli/ci-black.png" alt="Logo" style={{ height: '40px' }}/>
+              <img src="/images/cli/ci-black.png" alt="Logo" style={{ height: '50px' }}/>
             </Link>
           </h1>
           <Navigator />
