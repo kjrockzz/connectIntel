@@ -14,8 +14,8 @@ export default function PageNotFound() {
             <section className='lg:py-20 sm:py-14 py-10 border-b border-outline'>
                 <div className="container flex max-lg:flex-col gap-y-8 items-center">
                     <div className="bg-img lg:w-1/2 flex-shrink-0">
-                        <Image
-                            src={'/images/component/bg-404.png'}
+                        <img
+                            src={'/images/cli/bg-404.png'}
                             width={5000}
                             height={5000}
                             alt='bg-404'

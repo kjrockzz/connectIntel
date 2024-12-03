@@ -87,7 +87,7 @@ export default function ContactUs() {
                                             <Icon.EnvelopeSimple weight="bold" className="text-xl" />
                                         </div>
                                         <div className="text h-full flex-1 pl-6 border-l border-outline">
-                                            <span className="body2">sales@collectintel.in</span>
+                                            <span className="body2">business@collectintel.in</span>
                                         </div>
                                     </div>
                                     <div className="item flex items-center gap-6 mt-5">
@@ -112,6 +112,9 @@ export default function ContactUs() {
                                     </div>
                                     <div className="col-span-2">
                                         <input className="w-full bg-surface caption1 px-4 py-3 rounded-lg" id="Email" type="email" name="Email" placeholder="Email" required />
+                                    </div>
+                                    <div className="col-span-2">
+                                        <input className="w-full bg-surface caption1 px-4 py-3 rounded-lg" name="Phone" type="number" placeholder="Phone No." required ></input>
                                     </div>
                                     <div className="col-span-2">
                                         <textarea className="w-full bg-surface caption1 px-4 py-3 rounded-lg" name="Message" rows="4" placeholder="Your Questions..." required></textarea>

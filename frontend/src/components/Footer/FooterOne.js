@@ -13,11 +13,9 @@ export default function FooterOne({ classname }) {
             <div className="xl:w-1/4 md:w-1/2">
               <div className="footer-company-infor flex flex-col gap-5">
                 <Link href="/" className="logo">
-                  {classname ? (
-                    <Image src={'/images/cli/ci-black.png'} width={5000} height={5000} alt="logo" className="w-[148px]" />
-                  ) : (
-                    <Image src={'/images/cli/ci-black.png'} width={5000} height={5000} alt="logo" className="w-[148px]" />
-                  )}
+                  
+                    <img src='/images/cli/ci-black.png' width={5000} height={5000} alt="logo" className="w-[148px]" />
+                 
                 </Link>
                 <div className="caption1">At CollectIntel, we set out on a mission to seamlessly bridge the gap between offline and online customer acquisition channels, providing our clients with innovative, data-driven solutions that drive real results </div>
                 <div className="caption1">Mon - Fri: 9:00 - 19:00 <br />Closed on Weekends</div>
@@ -33,7 +31,7 @@ export default function FooterOne({ classname }) {
                       <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/contact-us">Contact</Link>
                     </li>
                     <li className="mt-2">
-                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/company/career">Career</Link>
+                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/company/career">Careers</Link>
                     </li>
                     
                     

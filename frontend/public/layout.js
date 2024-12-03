@@ -5,7 +5,7 @@ import GlobalProvider from "./GlobalProvider";
 const plusJakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "ConnectIntel",
+  title: "CollectIntel",
   description: "",
   favicon:"/favicon.png"
 };
